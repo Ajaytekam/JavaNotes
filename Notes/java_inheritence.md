@@ -69,8 +69,8 @@ At above there is a super-class named `profile` and a sub-class named `student`.
 		ClassA
 		  ^
 		  |
-	      |
-	      |
+	          |
+	          |
 		ClassB
 
 
@@ -81,8 +81,8 @@ Fig: Single Inheritence
 		ClassA
 		  ^
 		  |
-	      |
-	      |
+	          |
+	          |
 		ClassB
 		  ^
 		  |
@@ -149,10 +149,10 @@ marks: 555/700
 
 ```console
         ClassA
-		   ^
-		  / \
-	     /   \
-	    /     \
+           ^
+	  / \
+	 /   \
+        /     \
        /       \
       /         \
   ClassB      ClassC
