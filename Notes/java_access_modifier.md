@@ -8,9 +8,10 @@ The access modifiers in Java specifies the accessibility or scope of a field, me
 **4. Public**   
 
 
-**The scope of access modifiers:**
+**The scope of access modifiers:**  
+
 |Access specifier | Class | Package | Subclass(same package) | Subclass (diff package) | Outside |
-------------|-------|---------|--------------|--------------|-------|
+|------------|-------|---------|--------------|--------------|-------|
 **private**     | Yes   |  No     |    No        |    No        |   No  |
 **default**     | Yes   |  Yes    |    Yes       |    No        |   No  |
 **public**      | Yes   |  Yes    |    Yes       |    Yes       |   Yes |    
