@@ -15,9 +15,7 @@ Java encapsulates Stream under java.io package. Java defines two types of stream
 
 Byte stream is defined by using two abstract class at the top of hierarchy, they are InputStream and OutputStream.
 ```console
-		ByteStream
-		    /\
-           /  \
+	ByteStream
           /    \
          /      \
         /        \
@@ -27,6 +25,7 @@ Byte stream is defined by using two abstract class at the top of hierarchy, they
 **OutputStream :** Abstract class that describe stream output.   
 
 These two abstract classes have several concrete classes that handle various devices such as disk files, network connection etc.
+
 |Stream Class|Description|
 |-----|------|
 |FileInputStream|Input stream that reads from a file|
@@ -38,10 +37,10 @@ These two abstract classes have several concrete classes that handle various dev
 |BufferedReader|Used for reading from Buffered Input Stream.|
 |BufferedWriter|used for writing into Buffed Output Stream|
 
-
 ## InputStream :
 
 Java application uses an input stream to read data from a source; it may be a file, an array, peripheral device or socket. To implement this, input stream class is used. InputStream class is an abstract class. It is the superclass of all classes representing an input stream of bytes. Some of useful methods used on InputStream class :
+
 |Method|Description|
 |-----|----------|
 |int read()|reads the next byte of data from the input stream. It returns -1 at the end of the file.|
@@ -97,6 +96,7 @@ This is another text
 Java FileOutputStream is an output stream used for writing data to a file. If you have to write primitive values into a file, use FileOutputStream class. You can write byte-oriented as well as character-oriented data through FileOutputStream class. But, for character-oriented data, it is preferred to use FileWriter than FileOutputStream.
 
 Method of OutputStream :
+
 |Method|Description|
 |------|-----------|
 |void finalize()|used to clean up the connection with the file output stream.|
@@ -117,8 +117,8 @@ Example : Writing a single character on the file:
 ```
 
 Link:
-https://www.geeksforgeeks.org/java-io-packag/
-https://www.javatpoint.com/java-fileinputstream-class
-http://tutorials.jenkov.com/java-io/index.html
+https://www.geeksforgeeks.org/java-io-packag/  
+https://www.javatpoint.com/java-fileinputstream-class  
+http://tutorials.jenkov.com/java-io/index.html  
 https://www.tutorialspoint.com/java/java_files_io.htm (Try This)
 
