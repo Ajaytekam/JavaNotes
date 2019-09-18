@@ -2,7 +2,7 @@
 
 A package is nothing but a pack/group of classes, interfaces and other packages. In java the packages are used to organize our classes and interfaces. Therer are two types of packages in java :  
 
-**1. Built-in Package**
+**1. Built-in Package**  
 **2. User-Defined Package**
 
 **1. Built-in Package** : The already defined package like java.io.*, java.lang.* etc are known as built-in packages. In java we have several built-in packages, for example, to take user input we have to import `Scanner` class from `java.util` package,
